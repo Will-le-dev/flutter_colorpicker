@@ -314,7 +314,8 @@ class _ColorPickerState extends State<ColorPicker> {
                       widget.onHistoryChanged!(colorHistory);
                     }
                   }),
-                  child: ColorIndicator(currentHsvColor),
+                  child: const SizedBox(),
+                  // child: ColorIndicator(currentHsvColor),
                 ),
                 Expanded(
                   child: Column(
